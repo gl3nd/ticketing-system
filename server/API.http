@@ -1,0 +1,16 @@
+###
+GET http://localhost:3000/api/tickets HTTP/1.1
+###
+GET http://localhost:3000/api/tickets/1 HTTP/1.1
+###
+POST http://localhost:3000/api/tickets
+Content-Type: application/json
+
+{
+  "state": "open",
+  "category": "inquiry",
+  "title": "Issue with login",
+  "timeStamp": "2025-04-27T12:34:56Z"
+}
+
+###
