@@ -54,7 +54,7 @@ The application integrates several modern web technologies and libraries:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ticketing-system.git
+   git clone https://github.com/gl3nd/ticketing-system.git
    cd ticketing-system
 2. **For the frontend**
     ```bash
